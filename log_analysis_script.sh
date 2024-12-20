@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Check if log file is provided 
-if [ -z $1];
+if [ -z "$1" ];
 then 
  echo "Pls provide the log file"
  exit 1
